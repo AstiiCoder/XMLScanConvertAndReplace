@@ -99,7 +99,7 @@ namespace ConvertXMLConsole
                         Console.ForegroundColor = ConsoleColor.Yellow;
                         string mes = " попытка обработать файл " + Path.GetFileName(FileName) + " привела к исключению: не удалось его удалить!";
                         Console.WriteLine(DateTime.Now.ToString() + mes);
-                        WriteToLog(mes);
+                        WriteToLog(mes); 
                     }
                     
                 }
